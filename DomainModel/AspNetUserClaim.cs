@@ -7,22 +7,18 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DataAccessLayer
+namespace DomainModel
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class Bug
+    public partial class AspNetUserClaim
     {
         public int Id { get; set; }
-        public int ProjectId { get; set; }
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public System.TimeSpan Timestamp { get; set; }
-        public int Severity { get; set; }
-        public string Id1 { get; set; }
+        public string UserId { get; set; }
+        public string ClaimType { get; set; }
+        public string ClaimValue { get; set; }
     
         public virtual AspNetUser AspNetUser { get; set; }
-        public virtual Project Project { get; set; }
     }
 }

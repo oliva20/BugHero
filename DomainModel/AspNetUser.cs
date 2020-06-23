@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DataAccessLayer
+namespace DomainModel
 {
     using System;
     using System.Collections.Generic;
